@@ -1,0 +1,2 @@
+/media/movies/*
+!/media/movies/.gitignore
