@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MATEITUBE - Canvas Controls</title>
+
+    <link rel="stylesheet" href="2_1089_CIOBANU_MATEI_ALEXANDRU.css" />
+
+    <script src="2_1089_CIOBANU_MATEI_ALEXANDRU.js" defer></script>
+  </head>
+  <body>
+    <header class="header-bar">
+      <div class="header-left">
+        <h1>MATEITUBE</h1>
+      </div>
+    </header>
+    <main>
+      <section class="dragzone-section">
+        <h2>Adauga fisiere video</h2>
+        <div id="dragzone" class="dragzone">
+          <p>Trage aici un fisier video pentru a-l adauga în playlist</p>
+        </div>
+      </section>
+
+      <section class="main-content">
+        <div class="video-section">
+          <h3 id="current-video-title">Titlu video</h3>
+
+          <canvas
+            id="videoCanvas"
+            width="960"
+            height="540"
+            style="
+              width: 100%;
+              height: auto;
+              border: 1px solid #ccc;
+              cursor: pointer;
+            "
+          >
+          </canvas>
+
+          <div class="options">
+            <label>
+              <input type="checkbox" id="autoplay" checked />
+              Autoplay
+            </label>
+          </div>
+
+          <div class="video-effects-container">
+            <label for="video-effect">Alege efect video:</label>
+            <select id="video-effect" class="form-control">
+              <option value="none">Fara efect</option>
+              <option value="glitch">Glitch Effect</option>
+              <option value="invert">Invert Colors</option>
+              <option value="colorBoost">Color boost</option>
+              <option value="blur">Blur Effect</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="playlist-section">
+          <h3>Playlist</h3>
+          <div id="playlist"></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

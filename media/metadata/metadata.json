@@ -1,0 +1,28 @@
+{
+  "videos": [
+    {
+      "id": "3297e5be-a265-4a9c-a044-77645eb2ba97",
+      "title": "Lava",
+      "subtitle": "Lava erupting from a volcano",
+      "src": "./media/movies/video2.mp4"
+    },
+    {
+      "id": "192756de-ed7f-44ca-8b47-9279a85e16ca",
+      "title": "Volcano",
+      "subtitle": "Volcano eruption from distance",
+      "src": "./media/movies/video3.mp4"
+    },
+    {
+      "id": "6e5cdcbd-78e1-469e-94ae-3a9b429a2bad",
+      "title": "Sky View",
+      "subtitle": "Beautiful view from the sky",
+      "src": "./media/movies/video4.mp4"
+    },
+    {
+      "id": "a7a48339-f3bf-4b9f-ace5-d086e15bd1f9",
+      "title": "Instrument",
+      "subtitle": "Man playing instrument by the lake",
+      "src": "./media/movies/video5.mp4"
+    }
+  ]
+}
